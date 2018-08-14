@@ -8,7 +8,7 @@ function produceDrivingRange(blockRange) {
       return `${difference} blocks out of range`
     } else {
       let difference = bR - dR;
-      return `${difference} blocks out of range`
+      return `${difference} blocks out of range?`
     }
   }
 }
