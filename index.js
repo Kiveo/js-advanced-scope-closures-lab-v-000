@@ -4,7 +4,7 @@ function produceDrivingRange(driveRange) {
     // let bR = blockRange;
     // let dR = parseInt(driveRange, 10);
     let dR = driveRange;
-    if(dR > bR) {
+    if(bR > dR) {
       let difference = dR - bR;
       return `${difference} blocks out of range`
     } else {
