@@ -1,6 +1,5 @@
 function produceDrivingRange(blockRange) {
   return function drivingRange(driveRange){
-    debugger;
     if(driveRange > blockRange) {
       let difference = driveRange - blockRange;
       return `${difference} blocks out of range`
