@@ -1,7 +1,7 @@
 function produceDrivingRange(blockRange) {
   return function drivingRange(driveRange){
     if(driveRange > blockRange) {
-      let difference = (blockRange - driveRange);
+      let difference = (driveRange - blockRange);
       return `${difference} blocks out of range`
     } else {
       let difference = (blockRange - driveRange);
