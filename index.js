@@ -5,7 +5,7 @@ function produceDrivingRange(blockRange) {
       return '${difference} blocks out of range'
     } else {
       let difference = blockRange - driveRange;
-      return "within range by ${difference}"
+      return 'within range by ${difference}'
     }
   }
 }
